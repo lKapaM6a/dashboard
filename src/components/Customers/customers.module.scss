@@ -20,9 +20,13 @@ $dashboard-width: 60.5rem;
 
   // Dashboard table
   &__table {
-    padding: 1.875rem 2.375rem 2.5rem;
+    padding: 1rem;
     background-color: $white;
     border-radius: $large-radius;
+
+    @include media-breakpoint-up(md) {
+      padding: 1.875rem 2.375rem 2.5rem;
+    }
   }
 
   &__tableHead {
@@ -101,13 +105,14 @@ $dashboard-width: 60.5rem;
   }
 
   &__footer {
-    margin-top: 1.875rem;
+    margin-top: 1rem;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
 
     @include media-breakpoint-up(xl) {
+      margin-top: 1.875rem;
       flex-direction: row;
     }
   }
