@@ -1,7 +1,7 @@
 import React, {FC} from 'react'
-import styles from '../sidebar.module.scss'
 import {NavLink} from "react-router-dom";
 import {ChevronRightIcon} from "../../Icons";
+import styles from '../sidebar.module.scss'
 
 interface Props {
   items: any

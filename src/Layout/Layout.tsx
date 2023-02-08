@@ -13,8 +13,6 @@ export const Layout: FC<Props> = props => {
 
   const [showSidebar, setShowSidebar] = useState(false)
 
-  console.log(showSidebar)
-
   return (
     <>
       <div className={styles.page}>
