@@ -1,0 +1,48 @@
+@import '../../assets/styles/setup';
+
+.pagination {
+  display: flex;
+  align-items: center;
+
+  &__item,
+  &__more {
+    height: 1.5rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    font-weight: $fw-500;
+    font-size: $fs-sm;
+    @include transition-time-fastest;
+  }
+
+  &__more {
+    margin-left: 0.75rem;
+
+    &:hover,
+    &:active{
+      color: $accent-color;
+    }
+  }
+
+  &__item {
+    min-width: 1.625rem;
+    background-color: $gray-300;
+    border-radius: $small-radius;
+    border: 1px solid $divider-color;
+
+    &:not(:first-of-type) {
+      margin-left: 0.75rem;
+    }
+
+    &:hover,
+    &:active,
+    &.active {
+      background-color: $accent-color;
+      border-color: $accent-color;
+      color: $white;
+    }
+  }
+}

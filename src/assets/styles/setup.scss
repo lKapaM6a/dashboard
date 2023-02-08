@@ -1,0 +1,15 @@
+@import '~bootstrap/scss/mixins';
+
+@import './variables';
+@import './mixins';
+
+body {
+  letter-spacing: $letter-spacing;
+  line-height: $lh-default;
+  font-size: $fs-default;
+}
+
+h1 {
+  font-size: $fs-xxl;
+  font-weight: $fw-500;
+}

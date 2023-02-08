@@ -1,0 +1,41 @@
+@import '../../assets/styles/setup';
+
+.input {
+  position: relative;
+
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 0.5rem;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: $gray-600;
+  }
+
+  input {
+    padding: 0.438rem 0.5rem;
+    overflow: hidden;
+    font-size: $fs-sm;
+    border-radius: $radius-input;
+    background-color: $bg-input;
+    min-height: 2.375rem;
+    width: 100%;
+    @include transition-time-fastest;
+
+    &.hasIcon {
+      padding-left: 2.5rem;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      box-shadow: 0 0 0 1px $accent-color;
+    }
+
+    &::placeholder {
+      color: $gray-200;
+    }
+  }
+}

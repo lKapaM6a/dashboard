@@ -1,0 +1,89 @@
+// Colors
+$darken: #000000;
+$accent-color: #5932EA;
+$dark-color: #292D32;
+$white: #ffffff;
+$light-color: #9197B3;
+$green-200: #16C098;
+$green-300: #00B087;
+$green-600: #008767;
+$green-bg: rgba(22, 192, 152, 0.38);
+$gray-100: #F9FBFF;
+$gray-200: #B5B7C0;
+$gray-300: #F5F5F5;
+$gray-400: #838383;
+$gray-500: #757575;
+$gray-600: #7E7E7E;
+$red-200: #DF0404;
+$red-bg: #FFC5C5;
+
+// Text
+$fw-light: 300;
+$fw-normal: 400;
+$fw-500: 500;
+$fw-semi: 600;
+
+// Letter spacing
+$letter-spacing: -0.01em;
+
+// Font 1rem = 16px
+$fs-xs: 0.625rem; // 10px
+$fs-sm: 0.75rem; // 12px
+$fs-default: 0.875rem; // 14px
+$fs-md: 1rem; // 16px
+$fs-lg: 1.125rem; // 18px
+$fs-xl: 1.375rem; // 22px
+$fs-xxl: 1.5rem; // 24px
+
+// Line height
+$lh-default: 1.5;
+
+// Radius
+$small-radius: 4px;
+$medium-radius: 8px;
+$large-radius: 30px;
+
+// Body color
+$background-body: #FAFBFF;
+
+// Fonts
+$font-family-base: "Poppins";
+
+// Body
+$body-color: $darken;
+$body-bg: $background-body;
+
+// Box shadows
+$box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+
+// Grid breakpoints
+$grid-breakpoints: (
+        xs: 0,
+        sm: 812px,
+        md: 1024px,
+        lg: 1220px,
+        xl: 1300px,
+        xxl: 1620px,
+        xxxl: 1960px
+);
+
+// Grid containers
+$container-max-widths: (
+        sm: 1024px,
+        md: 1024px,
+        lg: 1220px,
+        xl: 1268px,
+        xxl: 1620px,
+  //xxxl: 1960px
+);
+
+// Dividers
+$divider-color: #EEEEEE;
+
+// Sidebar
+$sidebar-width: 19.125rem;
+$sidebar-index: 999;
+
+// Input
+$radius-input: 0.625rem;
+$bg-input: $gray-100;

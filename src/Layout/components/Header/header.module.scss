@@ -1,0 +1,42 @@
+@import '../../../assets/styles/setup';
+
+.header {
+  background-color: $white;
+  box-shadow: $box-shadow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+  @include media-breakpoint-up(xl) {
+    display: none;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  a {
+    &.header__logo {
+      text-decoration: none;
+      @include transition-time-fastest;
+
+      &:hover,
+      &:active {
+        opacity: 0.625;
+      }
+    }
+  }
+
+  &__version {
+    font-weight: $fw-500;
+    font-size: $fs-xs;
+    color: $gray-400;
+    padding: 0 0 0.313rem 0.25rem;
+  }
+
+  &__burger {
+    cursor: pointer;
+  }
+}

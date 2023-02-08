@@ -1,0 +1,30 @@
+@import '../assets/styles/setup';
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .wrapper {
+    flex: 1;
+    display: flex;
+  }
+
+  .content {
+    flex: 1;
+    margin: 0 1rem;
+
+    @include media-breakpoint-up(xl) {
+      margin: 0 4.438rem;
+    }
+
+    &.hasSidebar {
+      padding-left: 0;
+
+      @include media-breakpoint-up(xl) {
+        padding-left: $sidebar-width;
+      }
+    }
+  }
+}
