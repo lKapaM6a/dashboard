@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/dashboard/static/css/main.61b7bbe0.css",
+    "main.js": "/dashboard/static/js/main.62958336.js",
+    "static/js/787.e3e44ccb.chunk.js": "/dashboard/static/js/787.e3e44ccb.chunk.js",
+    "static/media/Poppins-SemiBoldItalic.woff": "/dashboard/static/media/Poppins-SemiBoldItalic.5d1d819fd981ed2eba45.woff",
+    "static/media/Poppins-MediumItalic.woff": "/dashboard/static/media/Poppins-MediumItalic.540729a5fcbb152be116.woff",
+    "static/media/Poppins-Regular.woff": "/dashboard/static/media/Poppins-Regular.aa27b6bdbf91d267ef8a.woff",
+    "static/media/Poppins-SemiBold.woff": "/dashboard/static/media/Poppins-SemiBold.c216913a8330e43e3eb8.woff",
+    "static/media/Poppins-Medium.woff": "/dashboard/static/media/Poppins-Medium.c91495afd0e2f292c3c4.woff",
+    "static/media/logo.svg": "/dashboard/static/media/logo.eaf0d5a02eb74b25c78415cd93a5d597.svg",
+    "static/media/promote.svg": "/dashboard/static/media/promote.c7a8eb65e18dbe87388341513f19b2da.svg",
+    "static/media/wallet.svg": "/dashboard/static/media/wallet.ce8372662b7795eb0b700c0e982bd7d8.svg",
+    "static/media/product.svg": "/dashboard/static/media/product.7548fd6c3f7a46f801c46663dba82b5e.svg",
+    "static/media/help.svg": "/dashboard/static/media/help.8e6df5c0f51e4121099b9b57bf80a259.svg",
+    "static/media/customers.svg": "/dashboard/static/media/customers.e73c18e90591340e9db1be74c9423f83.svg",
+    "static/media/key.svg": "/dashboard/static/media/key.bf422334c090f90152b76ae760d3f419.svg",
+    "index.html": "/dashboard/index.html",
+    "static/media/search.svg": "/dashboard/static/media/search.29bed46ec6d6e2ddf399218d2a9821c6.svg",
+    "static/media/close.svg": "/dashboard/static/media/close.aff6175fe99f984f06e1a12e6351f2fe.svg",
+    "static/media/burger.svg": "/dashboard/static/media/burger.5ca43ba307971cf9cffaf7bbcb535060.svg",
+    "static/media/chevront-right.svg": "/dashboard/static/media/chevront-right.d51e694f087d67047886a3baf362c20b.svg",
+    "main.61b7bbe0.css.map": "/dashboard/static/css/main.61b7bbe0.css.map",
+    "main.62958336.js.map": "/dashboard/static/js/main.62958336.js.map",
+    "787.e3e44ccb.chunk.js.map": "/dashboard/static/js/787.e3e44ccb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61b7bbe0.css",
+    "static/js/main.62958336.js"
+  ]
+}
